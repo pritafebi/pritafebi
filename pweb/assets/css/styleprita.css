@@ -1,0 +1,524 @@
+*{
+    margin: 0;
+    padding: 0;
+    word-break: break-word;
+}
+/* Halaman BEranda */
+@font-face{
+    font-family: "Raleway";
+    src: url('../fonts/Raleway-Regular.ttf');
+}
+@font-face{
+    font-family: "CanelaBarkPersonal";
+    src: url('../fonts/CanelaBarkPersonal.ttf');
+}
+
+#searchform {
+    text-align: center;
+    width: 230px;
+    height: 35px;
+    background-color: rgb(223, 219, 219);
+    margin: 5px auto;
+    border: 5px;
+    border-radius: 50px;
+}
+
+.text-search{
+    margin-top: 8px;
+    outline: none;
+    text-align: left;
+    border: none !important;
+    background: transparent;
+}
+#header-index {
+    height: auto;
+    padding-top:10px; 
+    background:url('../img/bghome.jpg') no-repeat; 
+    background-size: cover;
+}
+#header-galery {
+    height: auto;
+    position: relative;
+    padding-top:10px; 
+    background:url('../img/bggalery.jpg') no-repeat; 
+    background-size: cover;
+}
+#header-pantai {
+    height: auto;
+    padding-top:10px; 
+    background:url('../img/bgpantai.jpg') no-repeat; 
+    background-size: cover;
+}
+#header-pantaipapuma {
+    height: auto;
+    padding-top:20px; 
+    background:url('../img/bgpapuma.jpg') no-repeat; 
+    background-size: cover;
+}
+#header-bukit {
+    height: auto;
+    padding-top:20px; 
+    background:url('../img/bgbukit.jpg') no-repeat; 
+    background-size: cover;
+}
+#header-blog {
+    height: auto;
+    padding-top:10px; 
+    background:url('../img/bgblog.jpg') no-repeat; background-size: cover;
+}
+#menu {
+    background:rgba(255, 255, 255, 0.863); 
+    width: 100%;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.hreflatin{
+    color: rgb(250, 81, 81);
+    padding-left: 10px;
+    padding-top: 60px;
+    padding-bottom: 0px; 
+    font-family: "CanelaBarkPersonal";
+    font-size: 50px;
+}
+.hrefjudul{
+    color: rgb(250, 81, 81);
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-family: "Raleway";
+    font-size: 50px;
+}
+.jarak{
+    padding-top: 117px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+}
+.readmore{
+    font-family: "Raleway";
+    padding-left: 0px;
+    padding-top: 0;
+    color: red;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+.heading-a li a {
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 5px;
+    color:#FFF;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 15px;
+}
+#heading{
+    float: left;
+    width: 640px;
+}
+.h1latin {
+    padding-top: 40px;
+    padding-bottom: 0px;
+    font-family: "CanelaBarkPersonal";
+    color: #FFF;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.h1judul {
+    font-family: "Raleway";
+    padding-top: 0px;
+    color: #FFF;
+    font-size: 400%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.welcome{
+    font-family: "CanelaBarkPersonal";
+    color: rgb(102, 102, 102);
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.welcome1{
+    font-family: "Raleway";
+    color: rgb(102, 102, 102);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5px;
+}
+#bghome{
+    padding: 10px 0;
+    height: auto;
+    background: url('../img/bgblue.jpg') no-repeat; 
+    background-size: cover;
+}
+.gambar{
+    display: block;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin: auto;    
+}
+
+
+.texthome{
+    font-family: "Raleway";
+    color: grey;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.logo1{
+    display: block;
+    width: 400px;
+    height : 250px;
+    text-align: center;
+    margin: auto; 
+}
+#bghome1{
+    position: relative;
+    height:auto;
+    background-color: grey; 
+    margin : 15px; 
+    background-size: cover;
+}
+.judulfooter{
+    display: block;
+    font-family: "CanelaBarkPersonal";
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.ul-footer{
+    display:grid;
+    list-style-type:none;
+    margin:0;padding:0;
+    /* grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(1, auto);
+    grid-gap: 100px; */
+}
+.ul-footer>li{
+    padding: 0px 0;
+}
+.list-icon{
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+hr {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.text-footer{
+    font-family: "Raleway";
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    word-break: break-word;
+    
+}
+.text-footer1{
+    font-family: "Raleway";
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    padding: 20px;
+}
+.img-responsive{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-top: 10px;
+}
+.logo{
+    margin-left: 10px;
+}
+ul.menu-utama{
+    list-style: none;
+    font-family:"Raleway";
+    font-weight: bold;
+}
+
+#menu ul li {
+    float: left;
+    line-height: 65px;
+}
+#menu ul li a {
+    float:left; 
+    width:100px; 
+    display:block; 
+    text-align:center; 
+    color:#f90705ff; 
+    text-decoration:none; 
+}
+#menu ul ul {
+    display:none; 
+    list-style:none; 
+    position:absolute; 
+    background-color: rgba(255, 255, 255, 0.774);
+    float:none;
+    top:130px; 
+    width:190px;
+}
+#menu ul li a:hover {
+    background-color:rgba(255, 255, 255, 0.753); 
+    display:block;
+}
+#menu ul li:hover ul {
+    display:block;
+}
+#menu ul ul li a {
+    display:block;
+    padding-left:20px; 
+    text-align:left; 
+    width:160px;
+    /* height: 65px;
+    line-height: 40px; */
+}
+#menu ul ul li a:hover {
+    color:rgb(76, 174, 240);
+}
+.button-top{
+    margin-top:8px;
+    margin-right: 20px;
+    font-family:"Raleway";
+    font-weight: bold;
+}
+.button-top-a{
+    color: #be2525;
+    margin-top:15px;
+    margin-right: 20px;
+    font-family:"Raleway";
+    font-weight: bold;
+}
+.button-top>a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    background-color: rgb(255, 118, 118) !important;  
+    border-radius: 3px;
+}
+.toggle{
+    display: block;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    right: 0;
+}
+.dropdown-child {
+    position: absolute;
+    right: 0;
+    display: none;
+    background-color: rgb(87, 86, 86);
+    min-width: 200px;
+}
+.dropdown-child>a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.dropdown-child a:hover{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.37);
+}
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+ul.pagination li {
+    display: inline;
+}
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;  
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+ul.pagination li a:hover:not(.active) {
+    background-color: #ddd;
+}
+div.center {
+    text-align: center;
+}
+.text{
+    font-family: "Raleway";
+    font-size: 20px;
+}
+.judulpantai{
+    font-family: "CanelaBarkPersonal";
+    color: rgb(221, 46, 46);
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+}
+.teks{
+    font-family: "Raleway";
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 0px;
+    color: rgb(26, 25, 25);
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: justify;
+    text-indent: 60px;
+}
+
+#formKomentar input[type= "text" ] {
+    width: 225px;
+    margin-top : 30px;
+}
+#formKomentar input[type= "email" ] {
+    width: 225px;
+}
+
+
+#formKomentar input, textarea{
+     padding: 10px;
+     border:3px solid #e6e6e6;
+     border-radius: 5px;
+     margin-bottom: 15px; 
+ }
+
+ input:focus, textarea:focus{
+     border:3px solid #5E4F4F;
+ }
+
+ textarea{
+     width:450px;
+ }
+
+ .komen{
+    font-family: "Raleway";
+    color: rgb(233, 89, 89);
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+ input[type="submit"]{
+     cursor: pointer;
+    background: -webkit-linear-gradient(top, #efefef, #ddd);
+    background: -moz-linear-gradient(top, #efefef, #ddd);
+    background: -ms-linear-gradient(top, #efefef, #ddd);
+    background: -o-linear-gradient(top, #efefef, #ddd);
+    background: linear-gradient(top, #efefef, #ddd);
+    color: #333;
+    text-shadow: 0px 1px 1px rgba(255,255,255,1);
+    border: 1px solid #ccc;
+ }
+
+ input[type="submit"]:hover {
+    background: -webkit-linear-gradient(top, #eee, #ccc);
+    background: -moz-linear-gradient(top, #eee, #ccc);
+    background: -ms-linear-gradient(top, #eee, #ccc);
+    background: -o-linear-gradient(top, #eee, #ccc);
+    background: linear-gradient(top, #eee, #ccc);
+    border: 1px solid #bbb;
+}
+#button {
+    margin: 5% auto;
+    width: 200px;
+    text-align: center;
+    font-family: "Raleway";
+    }
+    
+#button a {
+    background-image: linear-gradient(to bottom,#2a95c5,#21759b);
+    background-image: -o-linear-gradient(to bottom,#2a95c5,#21759b);
+    background-image: -ms-linear-gradient(to bottom,#2a95c5,#21759b);
+    background-image: -moz-linear-gradient(to bottom,#2a95c5,#21759b);
+    background-image: -webkit-linear-gradient(to bottom,#2a95c5,#21759b);
+    background-color: #2e9fd2;
+    width: 100px;
+    height: 30px;
+    vertical-align: middle;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    }
+    
+
+.hasil-komentar{
+    margin-top: 20px;
+    font-family: "Raleway";                                                                                                         
+}
+.judul {
+    font-family: "Raleway";
+    color: rgb(245, 100, 100);
+
+}
+table {
+    text-align: justify;
+    
+    margin-right: 5px;
+}
+table tr td {
+    width: 200px;
+}
+.bungkus-gambar:hover .caption {
+    background-color:rgba(255, 255, 255, 0.753); 
+    display: block;
+}
+.caption {
+    display: none;
+    background-color: rgba(241, 235, 235, 0.384);
+    position: absolute;
+    font-family: "CanelaBarkPersonal";
+    font-size: 40px;
+    color: rgb(182, 38, 38);
+    top: 10px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.bungkus-gambar {
+    position: relative;
+}
+
+.gambar-papuma {
+    max-width: 300px;
+}
+
+@media (min-width: 776px) {
+    .gambar-papuma {
+        max-width: 500px;
+    }
+}
+@media (max-width: 576px) {
+    .h1judul {
+        font-size: 2.8em;
+    }
+}
+.rating{
+    font-family: "CanelaBarkPersonal";
+    color: rgb(19, 207, 75);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5px;
+}
